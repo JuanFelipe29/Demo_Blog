@@ -30,6 +30,17 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
+# Make errors better looking
+gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
+# Bulma CSS
+gem 'bulma-rails', '~> 0.9.4'
+
+# Simnple form
+gem 'simple_form', '~> 5.1'
+
+
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -56,6 +67,10 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+
+  #Guard
+  gem 'guard', '~> 2.18'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
