@@ -70,7 +70,8 @@ group :development do
 
   #Guard
   gem 'guard', '~> 2.18'
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-bundler'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2' , require: false
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
